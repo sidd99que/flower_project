@@ -39,7 +39,7 @@ section{
 
       text-align: center;
       font-size: 4rem;
-      color: #333;
+      color: #9b9a9a;
       padding: 1rem;
       margin: 2rem 0;
       background: rgba(255,51,153,.05);
@@ -60,11 +60,12 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: gray;
-    color: #fff;
+    background: rgba(32, 2, 202, 0);
+    color: #cc2b2b;
     padding: .9rem 3.5rem;
     cursor: pointer;
     font-size: 1.7rem;
+    border: 2px solid gray;
 
 }
 .btn.hover{
@@ -149,15 +150,16 @@ header #toggler{
 
 
 
-                                
-.home{
+/* styles/styles.css */
+.home {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url('https://t4.ftcdn.net/jpg/06/42/48/31/360_F_642483131_ok0OYl7dAuDpAG7OqJg390HXqPjox87A.jpg');
+    background: url(/images/backgroud.jpg) no-repeat center center; /* Ensure the correct path */
     background-size: cover;
-    background-position: center;
 }
+
+
     
 .home .content{
     max-width: 50rem;
